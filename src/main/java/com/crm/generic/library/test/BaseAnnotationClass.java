@@ -1,7 +1,6 @@
 package com.crm.generic.library.test;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -12,7 +11,6 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-
 import com.crm.ObjectRepositoryLib.Home;
 import com.crm.ObjectRepositoryLib.Login;
 
@@ -34,8 +32,6 @@ public class BaseAnnotationClass
 	@BeforeClass
 	public void configBC() throws Throwable
 	{
-		
-
 		String URL = fLib.getPropertyKeyValue("url");
 		String BROWSER = fLib.getPropertyKeyValue("browser");
 		

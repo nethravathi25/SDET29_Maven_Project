@@ -31,10 +31,8 @@ public class OrgModules_Test extends BaseAnnotationClass
 	@Test(groups = "smokeTest")
 	public void OrgTest() throws Throwable
 	{
-		/*String orgName = eLib.getDataFromExcel("Sheet2", 1, 2)+jLib.getRandomNumber();
+		String orgName = eLib.getDataFromExcel("Sheet2", 1, 2)+jLib.getRandomNumber();
 		String industry = eLib.getDataFromExcel("Sheet2", 1, 3);
-		
-		
 		
 		driver.findElement(By.xpath("//img[@alt='Create Organization...']")).click();
 		driver.findElement(By.xpath("(//input[@class='detailedViewTextBox'])[1]")).sendKeys(orgName);
@@ -55,7 +53,7 @@ public class OrgModules_Test extends BaseAnnotationClass
 		else
 		{
 			System.out.println("Organization is not created successfully and failed");
-		}*/
+		}
 		
 		driver.findElement(By.linkText("Organizations")).click();
 		System.out.println("1sr pass");

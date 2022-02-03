@@ -3,16 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.modules.Test.OrgModules_Test">
+      <class name="Practice.OrgWithDataProviderTest">
         <methods>
+          <include name="configBS"/>
           <include name="configBC"/>
+          <include name="orgVithDataProvider"/>
           <include name="configBM"/>
-          <include name="OrgTest"/>
-          <include name="OrgWithInd"/>
           <include name="configAM"/>
+          <include name="configAS"/>
           <include name="configAC"/>
         </methods>
-      </class> <!-- com.crm.modules.Test.OrgModules_Test -->
+      </class> <!-- Practice.OrgWithDataProviderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
